@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "views",
+    "site": "recyclean-backend",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
